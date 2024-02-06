@@ -1,0 +1,154 @@
+/* myblog-frontend/src/styles.css */
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+/* Link styles */
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Button styles */
+button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: block;
+  margin: 0 auto; /* Center the button */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Add some spacing between form elements */
+form > * {
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+/* Button styles */
+.button-link {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 10px; /* Add some spacing between buttons */
+}
+
+.button-link:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styles */
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.post-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.add-blog-button {
+  display: block;
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.add-blog-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
